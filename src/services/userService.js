@@ -15,3 +15,11 @@ exports.updateUser = () => {
 exports.deleteUser = () => {
   return "User deleted successfully";
 };
+
+exports.getAllUsers = () => {
+  return "All users fetched successfully";
+};
+
+exports.getUserById = () => {
+  return "User fetched by ID";
+};

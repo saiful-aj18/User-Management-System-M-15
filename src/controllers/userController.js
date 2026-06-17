@@ -13,6 +13,12 @@ exports.updateUser = (req, res) =>
 exports.deleteUser = (req, res) =>
   successResponse(res, userService.deleteUser());
 
+exports.getAllUsers = (req, res) =>
+  successResponse(res, userService.getAllUsers());
+
+exports.getUserById = (req, res) =>
+  successResponse(res, userService.getUserById());
+
 
 
 
