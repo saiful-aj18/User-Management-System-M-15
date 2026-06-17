@@ -19,6 +19,24 @@ exports.getAllUsers = (req, res) =>
 exports.getUserById = (req, res) =>
   successResponse(res, userService.getUserById());
 
+exports.loginUser = (req, res) =>
+  successResponse(res, userService.loginUser());
+
+exports.logoutUser = (req, res) =>
+  successResponse(res, userService.logoutUser());
+
+exports.changePassword = (req, res) =>
+  successResponse(res, userService.changePassword());
+
+exports.updateProfile = (req, res) =>
+  successResponse(res, userService.updateProfile());
+
+exports.makeAdmin = (req, res) =>
+  successResponse(res, userService.makeAdmin());
+
+exports.removeAdmin = (req, res) =>
+  successResponse(res, userService.removeAdmin());
+
 
 
 

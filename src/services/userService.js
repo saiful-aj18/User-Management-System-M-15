@@ -23,3 +23,27 @@ exports.getAllUsers = () => {
 exports.getUserById = () => {
   return "User fetched by ID";
 };
+
+exports.loginUser = () => {
+  return "User login successful";
+};
+
+exports.logoutUser = () => {
+  return "User logout successful";
+};
+
+exports.changePassword = () => {
+  return "Password changed successfully";
+};
+
+exports.updateProfile = () => {
+  return "User profile updated successfully";
+};
+
+exports.makeAdmin = () => {
+  return "User made admin successfully";
+};
+
+exports.removeAdmin = () => {
+  return "Admin role removed successfully";
+};
