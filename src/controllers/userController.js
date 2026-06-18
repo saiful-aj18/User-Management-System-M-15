@@ -37,6 +37,30 @@ exports.makeAdmin = (req, res) =>
 exports.removeAdmin = (req, res) =>
   successResponse(res, userService.removeAdmin());
 
+exports.searchUsers = (req, res) =>
+  successResponse(res, userService.searchUsers());
+
+exports.filterUsers = (req, res) =>
+  successResponse(res, userService.filterUsers());
+
+exports.blockUser = (req, res) =>
+  successResponse(res, userService.blockUser());
+
+exports.unblockUser = (req, res) =>
+  successResponse(res, userService.unblockUser());
+
+exports.verifyEmail = (req, res) =>
+  successResponse(res, userService.verifyEmail());
+
+exports.resendVerification = (req, res) =>
+  successResponse(res, userService.resendVerification());
+
+exports.uploadProfilePicture = (req, res) =>
+  successResponse(res, userService.uploadProfilePicture());
+
+exports.deleteAccount = (req, res) =>
+  successResponse(res, userService.deleteAccount());
+
 
 
 

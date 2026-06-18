@@ -47,3 +47,35 @@ exports.makeAdmin = () => {
 exports.removeAdmin = () => {
   return "Admin role removed successfully";
 };
+
+exports.searchUsers = () => {
+  return "User search completed successfully";
+};
+
+exports.filterUsers = () => {
+  return "User filter completed successfully";
+};
+
+exports.blockUser = () => {
+  return "User blocked successfully";
+};
+
+exports.unblockUser = () => {
+  return "User unblocked successfully";
+};
+
+exports.verifyEmail = () => {
+  return "Email verified successfully";
+};
+
+exports.resendVerification = () => {
+  return "Verification email resent";
+};
+
+exports.uploadProfilePicture = () => {
+  return "Profile picture uploaded successfully";
+};
+
+exports.deleteAccount = () => {
+  return "Account deleted successfully";
+};
